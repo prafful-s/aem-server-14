@@ -588,7 +588,7 @@ async function loadBlock(block) {
  */
 function decorateBlock(block) {
   const shortBlockName = block.classList[0];
-  if(document.getElementsByClassName('hero').length > 0 && document.getElementsByClassName('hero')[0].children.length == 3){Add commentMore actions
+  if(document.getElementsByClassName('hero').length > 0 && document.getElementsByClassName('hero')[0].children.length == 3){
     const className = document.getElementsByClassName('hero')[0].children[2].children[0].innerHTML;
     block.classList.add(className);
     document.getElementsByClassName('hero')[0].children[2].remove();
